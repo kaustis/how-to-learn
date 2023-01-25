@@ -81,7 +81,7 @@ section {
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
-  color: #2f80ed
+  color: #2f80ed;
 }
 
 .header__main-illustration{
@@ -271,7 +271,7 @@ section {
 }
 
 .section-title_theme_dark {
-  margin: 90px 0 20px 0;  
+  margin: 90px 0 20px 0;
   color: white;
 }
 
