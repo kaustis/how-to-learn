@@ -48,7 +48,7 @@ section {
 
 .logo__place_header {
   background-image: url(../images/logo_place_header.svg);
-  top: 30px; 
+  top: 30px;
   left: 64px;
   position: absolute; 
 }
@@ -61,7 +61,7 @@ section {
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   font-size: 102px;
   line-height: 96px;
-  font-weight: 600; 
+  font-weight: 600;
   margin: 0 0 0 64px;
   /*margin: 50% auto auto 0;*/
 }
@@ -139,7 +139,7 @@ section {
 
 .two-columns__main-text {
   display: flex;
-  flex-flow: column wrap; 
+  flex-flow: column wrap;
   width: 80%;
   min-width: 784px;
 }
@@ -263,7 +263,7 @@ section {
 .kaufman {
   position: relative;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
   background-color: #1f1f1f;
   overflow: hidden;
