@@ -46,7 +46,7 @@ section {
   width: 228px;
 }
 
-.logo__place_header {
+.logo_place_header {
   background-image: url(../images/logo_place_header.svg);
   top: 30px;
   left: 64px;
@@ -331,7 +331,7 @@ section {
   flex-basis: 711px;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
 }
 
@@ -378,4 +378,3 @@ section {
   display: flex;
   flex-direction: column;
 }
-
