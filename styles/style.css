@@ -327,7 +327,7 @@ section {
   justify-content: space-between;
 }
 
-.footer__column_content-copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   align-content: flex-start;
@@ -376,9 +376,7 @@ section {
   height: 16px;
   width: 16px;
 }
-
-.footer__column-icon-links{
-  margin-bottom: 16px;
+/*.footer__column_content_social {
   display: flex;
   flex-direction: column;
-}
+}*/
