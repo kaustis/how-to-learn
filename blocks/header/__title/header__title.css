@@ -1,0 +1,13 @@
+.header__title {
+    display: flex;
+    align-self: center;
+    width: 730px;
+    z-index: 2;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 102px;
+    line-height: 96px;
+    font-weight: 600;
+    margin: 0 0 0 64px;
+    /*margin: 50% auto auto 0;*/
+  }
+  
