@@ -11,4 +11,5 @@
     z-index: 0;
     height: 873px;
     width: 873px;
+    overflow: hidden;
   }
