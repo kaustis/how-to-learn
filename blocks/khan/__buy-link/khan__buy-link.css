@@ -1,4 +1,4 @@
-.khan__book-link {
+.khan__buy-link {
     height: 100%;
     text-decoration: none;
     color: #2f80ed;
@@ -8,7 +8,7 @@
     font-size: 24px;
 }
 
-.khan__book-link:hover {
+.khan__buy-link:hover {
     opacity: 0.33;
     transition: all 0.2s ease-out;
 }
