@@ -18,7 +18,7 @@
 
 **How to learn** представляет из себя одностраничный сайт, написанный на *HTML*, где за стили элементов и анимации отвечает *CSS*. 
 Видео в проекте реализованы с помощью *iframe*:
-'''<div class="video__iframes">
+```<div class="video__iframes">
           <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-   </div>'''
+   </div>```
