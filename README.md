@@ -22,7 +22,7 @@
 
 Сама страница разбита на множество секций, что позволяет постоянно дорабатывать и улучшать сайт, добавлять новые элементы и даже разделы.
 
-Анимации реализованы с помощью *@keyframe* и подключаются миксом:
+Анимации реализованы с помощью *@keyframe* в отдельном блоке и подключаются миксом:
 ```
 @keyframes rotate{
     from {
@@ -37,6 +37,11 @@
 ```
 <div class="header__square-pic rotation"></div>
 ```
+Такой подход позволяет ипользовать анимации для различных элементов, что заметно уменьшает количество кода:
+
+```
+<div class="kaufman__triangle rotation"></div>
+```
 
 Видео в проекте реализованы с помощью *iframe*:
 ```
@@ -45,3 +50,27 @@
 ```
 
 Ссылки в проекте кликабельны и переносят пользователя в новое окно, не закрывая текущее. Такой подход упрощает работу с сайтом для его пользователей.
+Также при наведении на них, меняется их *opacity*:
+```
+.feynman__link:hover{
+  opacity: 0.33;
+  transition: all 0.2s ease-out;
+}
+```
+
+Почти все таблицы реализованы с помощью списков:
+```
+<ul class="footer__column-links">
+  <li class="footer__list-item"><a href="#" class="footer__column-link">Главная</a></li>
+  <li class="footer__list-item"><a href="#" class="footer__column-link">Концепция</a></li>
+  <li class="footer__list-item"><a href="#" class="footer__column-link">Наставники</a></li>
+</ul>
+```
+Такой подход позволяет сделать код читабельнее и проще в доработке.
+
+В разделе *footer* иконки являются частью ссылки, что позволяет пользователю нажимать и на них
+```
+<a href="https://www.youtube.com/" target="_blank" class="footer__column-link">
+  <img src="images/youtube-icon.svg" alt="ютуб" class="footer__social-icon">Youtube
+</a>
+```
