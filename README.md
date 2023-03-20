@@ -17,6 +17,17 @@
 Благодаря фото, видео и анимациям, которые представлены в проекте, пользователь не будет уставать от однотонного текста, а значит и материал будет усваиваться намного приятнее и быстрее. Почти каждое из упражнений сопровождается ссылками на полезные материалы, которые помогут глубже понять тему.
 
 **How to learn** представляет из себя одностраничный сайт, написанный на *HTML*, где за стили элементов и анимации отвечает *CSS*. 
+Все анимации реализованы с помощью *@keyframe* и подключаются миксом:
+```
+@keyframes rotate{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+```
 Видео в проекте реализованы с помощью *iframe*:
 ```
 <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
